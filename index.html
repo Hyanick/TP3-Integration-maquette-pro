@@ -9,30 +9,32 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
         integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./style.css">
 </head>
 
 <body>
     <nav>
-        <div>
-            <ul>
-                <li><a href="#">Accueil</a></li>
-                <li><a href="#">BUSINESS SCHOOL</a></li>
-                <li><a href="#">ECOLE ESPORT</a></li>
-                <li><a href="#">COURS DE JEUX VIDEO</a></li>
-                <li><a href="#">LE CAMPUS</a></li>
-                <li><a href="#">NEWSROOM</a></li>
-                <li><a href="#">PARENTS</a></li>
-                <li><button class="btn-language">FR|EN</button></li>
-            </ul>
-        </div>
+        <ul>
+            <li><a id="active" href="#">Accueil</a></li>
+            <li><a href="#">BUSINESS SCHOOL</a></li>
+            <li><a href="#">ECOLE ESPORT</a></li>
+            <li><a href="#">COURS DE jeux VIDEO</a></li>
+            <li><a href="#">LE campus</a></li>
+            <li><a href="#">NEWSROOM</a></li>
+            <li><a href="#">parents</a></li>
+            <li><button class="btn-language">FR | EN</button></li>
+        </ul>
+
     </nav>
     <header>
         <div class="main-header">
-            <div id="logo">
-                <img src="./assets/img/logo-gc-hero.png" alt="logo gc hero">
+            <div class="main-header-content">
+                <div id="logo">
+                    <img src="./assets/img/logo-gc-hero.png" alt="logo gc hero">
+                </div>
+                <h2>passion. professionnalise. performance</h2>
+                <button>GAMING CAMPUS EN VIDEO <i class="fa-solid fa-angle-right"></i></button>
             </div>
-            <h2>passion. professionnalise. performance</h2>
-            <button>GAMING CAMPUS EN VIDEO<i class="fa-solid fa-angle-right"></i></button>
         </div>
         <div class="header-text">
             <p>Imaginé par des professionnels des jeux vidéos et de l'éducation, Gaming Campus est un lieu unique pour
@@ -45,7 +47,7 @@
                 <div class="icon-part-list-logo">
                     <img src="./assets/img/logo-gbs-home.png" alt="Logo GBS">
                 </div>
-                <h3>GAMING BUSINESS SCHOOL</h3>
+                <h2>GAMING BUSINESS SCHOOL</h2>
                 <p>Formez-vous dans la première école de management dédiée au enjeux métiers du jeu vidéo</p>
                 <button>En savoir plus</button>
             </div>
@@ -65,53 +67,58 @@
                 <p>Jouez avec les milliers de gamers pour vous améliorer dans vos jeux vidéo préférés</p>
                 <button>En savoir plus</button>
             </div>
-    </section>
-    <section class="news-part">
-        <div class="news-part-header">
-            <div class="news-part-header-left">
-                <h2>Les news du campus</h2>
-                <p> Suivez l'actualité du Gaming Campus, de G. Guru, G.B.B et G. Academy.</p>
-            </div>
-            <div class="news-part-header-rigth">
-                <button>La newroom<i class="fa-solid fa-angle-right"></i></button>
-            </div>
         </div>
-        <div class="news-part-main">
-            <div class="news-part-main-container">
-                <div class="new">
-                    <div class="new-picture">
-                        <img src="./assets/img/ri8decembre.jpg" alt="réunion d'information">
+    </section>
+    <section id="section2">
+        <div class="news-part">
+            <div class="news-part-header">
+                <div class="news-part-header-left">
+                    <h2>Les news du campus</h2>
+                    <p>Suivez l'actualité du Gaming Campus, de G. Guru, G.B.B et G. Academy.</p>
+                </div>
+                <div class="news-part-header-rigth">
+                    <button>La newroom <i class="fa-solid fa-angle-right"></i></button>
+                </div>
+            </div>
+            <div class="news-part-main">
+                <div class="news-part-main-container">
+                    <div class="new">
+                        <div class="new-picture">
+                            <img src="./assets/img/ri8decembre.jpg" alt="réunion d'information">
+                        </div>
+                        <h3>Réunion d'information 19 décembre</h3>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Omnis repellat excepturi
+                            veritatis vitae explicabo dolorum atque tempora quae aut molestias!</p>
+                        <div class="new-link">
+                            <a href="#">Sur Inscription <i class="fa-solid fa-angle-right"></i> </a>
+                        </div>
                     </div>
-                    <h4>Réunion d'information 19 décembre</h4>
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Omnis repellat excepturi
-                        veritatis vitae explicabo dolorum atque tempora quae aut molestias!</p>
-                    <div class="new-link">
-                        <a href="#">Sur Inscription <i class="fa-solid fa-angle-right"></i> </a>
+                    <div class="new">
+                        <div class="new-picture">
+                            <img src="./assets/img/pgw18home.jpg" alt="Paris games week">
+                        </div>
+                        <h3>Paris Games Week 2018 et réunions d'information</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa, amet!</p>
+                        <div class="new-link">
+                            <a href="#">Lire la suite <i class="fa-solid fa-angle-right"></i> </a>
+                        </div>
                     </div>
-                </div> <br>
-                <div class="new">
-                    <div class="new-picture">
-                        <img src="./assets/img/pgw18home.jpg" alt="Paris games week">
-                    </div>
-                    <h3>Paris Games Week 2018 et réunions d'information</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa, amet!</p>
-                    <div class="new-link">
-                        <a href="#">Lire la suite <i class="fa-solid fa-angle-right"></i> </a>
-                    </div>
-                </div><br>
-                <div class="new">
-                    <div class="new-picture">
-                        <img src="./assets/img/inauguration_gaming_campus_photo.jpg" alt="inauguration gaming campus">
-                    </div>
-                    <h3>Inauguration Gaming Campus Lyon</h3>
-                    <p> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatem sint natus
-                        corporis ipsam, nobis molestias.</p>
-                    <div class="new-link">
-                        <a href="#">Lire la suite <i class="fa-solid fa-angle-right"></i> </a>
+                    <div class="new">
+                        <div class="new-picture">
+                            <img src="./assets/img/inauguration_gaming_campus_photo.jpg"
+                                alt="inauguration gaming campus">
+                        </div>
+                        <h3>Inauguration Gaming Campus Lyon</h3>
+                        <p> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatem sint natus
+                            corporis ipsam, nobis molestias.</p>
+                        <div class="new-link">
+                            <a href="#">Lire la suite <i class="fa-solid fa-angle-right"></i> </a>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
+
     </section>
     <section class="contact">
         <div class="contact-container">
@@ -154,7 +161,6 @@
                     <p>Touts droits réservés.</p>
                 </div>
             </div>
-            <hr>
             <div class="contact-medias">
                 <div class="medias-text">
                     <h3>Ils parlent de nous</h3>
