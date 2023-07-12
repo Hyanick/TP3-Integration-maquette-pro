@@ -191,3 +191,43 @@ footer a {
   align-items: center;
   transition: 0.3s;
 }
+
+
+/*************************** MEDIAS QUERIES *************************/
+
+@media screen and (max-width:650px) {
+
+  header,
+  .section-1,
+  .section-2 {
+    display: block;
+  } 
+  
+  header{
+    height: auto;
+  }
+  .img-banner{
+    height: 50vh;
+    margin-top: 30px;
+  }
+
+  .container{
+    padding: 50px;
+  }
+  
+  footer ul {
+    max-width: 200px;
+  }
+
+  footer a {
+    width: 30px;
+    height: 30px;
+  }
+
+  footer i {
+    font-size: 0.7rem;
+  }
+                                                                                          
+  
+}
+
